@@ -1,4 +1,4 @@
-This Project is to be used to learn NodeJS .
+This Project is used to learn NodeJS .
 
 In order to learn please install
 
