@@ -10,3 +10,12 @@ In order to learn please install
 6. Postman to test API's
 
 Node inbuild packages exercise are in nodeinbuilt folder ==> FileSystem.js and OperatingSystemINfo.js which can be run from the folder with command node <fileName>.js i.e node FileSystem.js
+
+The FileSystem.js file contains the following functions:
+writeFile: Is a function that enables you to write a file of any extension.
+appendFile: Is a function that enables you to append any data to a file. remember to append "/n" at the string we are passing as argument to the function.
+readFile: Is a function that enables you to read a file of any extension. Please note that to pass a encoding type i.e 'UTF-8' to decode the text as human readable.
+renameFile: Is a function that enables you to rename a file.
+unlike: Is a function that enables you to delete a file.
+
+All the above functions accept both relative paths and absolute paths. Can refer to this link "https://www.youtube.com/watch?v=ephId3mYu9o" to know more about the relative and absolute paths.

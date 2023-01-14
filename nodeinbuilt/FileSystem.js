@@ -37,3 +37,15 @@ fs.readFile("Main.json", "utf8", function (err, data) {
 
   console.log(data);
 });
+fs.rename("Main.txt", "Main1.txt", function (err) {
+  if (err) {
+    return console.log(err);
+  }
+  console.log("The file was renamed!");
+});
+fs.unlink("Main1.txt", function (err) {
+  if (err) {
+    return console.log(err);
+  }
+  console.log("The file was deleted!");
+});
