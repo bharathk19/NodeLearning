@@ -18,4 +18,14 @@ readFile: Is a function that enables you to read a file of any extension. Please
 renameFile: Is a function that enables you to rename a file.
 unlike: Is a function that enables you to delete a file.
 
-All the above functions accept both relative paths and absolute paths. Can refer to this link "https://www.youtube.com/watch?v=ephId3mYu9o" to know more about the relative and absolute paths.
+All the above functions accept both relative paths and absolute paths. Can refer to this link "https://www.youtube.com/watch?v=ephId3mYu9o from a youtube." to know more about the relative and absolute paths.
+
+HTTP Module : This module helps you create services for a application.
+nodeinbuilt/http.js files details with a basic example to demonstrate how a request is processed.
+nodeinbuilt/staticApi.js files details with a basic example to demonstrate how the data can be loaded with file system and respond with the data.
+
+Added Start and dev scripts to the package.json. this helps you to run a specific file when running.
+Example: "npm start" and "npm run dev" are the commands to start from the folder where package.json is located.
+
+ActualLearn directory is where we would be learning the expressJS framework.
+As the name explains basicExpress.js is used for basic examples to use express.
