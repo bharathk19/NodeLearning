@@ -29,3 +29,8 @@ Example: "npm start" and "npm run dev" are the commands to start from the folder
 
 ActualLearn directory is where we would be learning the expressJS framework.
 As the name explains basicExpress.js is used for basic examples to use express.
+
+In the Actual Learning directory "mainIssueOfRouting.js" shows why do we need routing mechanism. If you browse into the code you will see that "/details" is available twice, which is used for appropriate routing. But we ran into issue where only the first route is available to network call.
+
+In order to resolve this we are using the routerApp.js where we configure a router method to individual routes and configure them. That way we can resolve the issue if we have multiple routes with same name for a different use.
+
