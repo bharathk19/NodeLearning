@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ActualLearn/app.js",
-    "dev": "node ActualLearn/app.js"
+    "dev": "nodemon ActualLearn/app.js"
   },
   "keywords": [
     "node"
